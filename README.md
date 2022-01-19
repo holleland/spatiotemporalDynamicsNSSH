@@ -42,9 +42,9 @@ C++ code can be found in the *src/* folder.
 The data used by **Homrum et. al. (2022)** were compiled from national
 databases and stored offline. They can only be accessed by the consent
 of all parties. Requests to access these datasets should be directed to
-Guðmundur J. Óskarsson, <gjos@hafogvatn.is>; Aril Slotte,
-<aril.slotte@hi.no>; and Jan Arge Jacobsen,
-[janarge@hav.fo](emailto:janarge@hav.fo).
+Guðmundur J. Óskarsson (<gjos@hafogvatn.is>), Aril Slotte
+(<aril.slotte@hi.no>) and Jan Arge Jacobsen
+([janarge@hav.fo](emailto:janarge@hav.fo)).
 
 ## Author’s github accounts
 

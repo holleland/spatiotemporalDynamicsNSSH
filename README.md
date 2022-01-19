@@ -18,8 +18,8 @@ here](https://www.frontiersin.org/journals/marine-science)
 The purpose of this github repository is to ensure transparency of the
 results presented in **Homrum et. al. (2022)**. Here you will find the
 necessary R- and C++ code to fit the models and produce most of the
-figures in the paper. Due to restrictions detailed below the data is not
-included, but may be shared upon request.
+figures in the paper. Due to restrictions detailed below, the data is
+not included, but may be shared upon request.
 
 ## Code
 
@@ -39,9 +39,9 @@ C++ code can be found in the *src/* folder.
 
 ## Data availability
 
-The data used in the **Homrum et. al. (2022)** are stored in a joint
-database (PGNAPES), and can only be accessed by the consent of all
-parties. Requests to access these datasets should be directed to
+The data used by **Homrum et. al. (2022)** were compiled from national
+databases and stored offline. They can only be accessed by the consent
+of all parties. Requests to access these datasets should be directed to
 Guðmundur J. Óskarsson, <gjos@hafogvatn.is>; Aril Slotte,
 <aril.slotte@hi.no>; and Jan Arge Jacobsen,
 [janarge@hav.fo](emailto:janarge@hav.fo).

@@ -72,3 +72,12 @@ Homrum, E.Í., Óskarsson, G.J., Ono, K., Hølleland, S., and Slotte, A.
 Norwegian spring spawning herring (Clupea harengus) linked to
 large-scale spatiotemporal dynamics in distribution. Manuscript under
 review in *Frontiers of Marine Science*.
+
+[<img src="http://econorse.imr.no/resources/images/prosjekter/conevolher/havstovan_logo-2-.jpg"
+alt="Havstovan - Faroe Marine Research Institute" width="300"/>](https://www.hav.fo/)
+  
+[<img src="https://www.hafogvatn.is/static/files/myndir/Logo/logo_ens.png"
+alt="Marine & Freshwater Research Institute" width="250"/>](https://www.hafogvatn.is)
+  
+[<img src="https://www.hi.no/en/hi/resources/layout/HI-logo-farger-engelsk.svg/original"
+alt="Institute of Marine Research" width="200"/>](https://www.hi.no/en)

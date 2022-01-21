@@ -107,15 +107,15 @@ plot_map_selected <- function(save=FALSE, percentile = 0.99){
     coord_sf(xlim=range(qqq$X1000), ylim=range(qqq$Y1000))
   if(toanalyze != "gonad_weight"){
   ggsave(pall,#+           guides(fill = guide_colorbar(barheight = 25/2.5)),
-         file = paste0(getwd(), "/plots/epsilon_selected_",toanalyze,"_", round(100*percentile,0),  ".tiff"),
+         file = paste0(getwd(), "/output/plots/epsilon_selected_",toanalyze,"_", round(100*percentile,0),  ".tiff"),
          width = 10, height = 8, dpi= 400, device = "tiff")
   }else{
     ggsave(pall,#+guides(fill = guide_colorbar(barheight = 12.5/2.5)), 
-           file = paste0(getwd(), "/plots/epsilon_selected_",toanalyze, "_", round(100*percentile,0), ".tiff"),
+           file = paste0(getwd(), "/output/plots/epsilon_selected_",toanalyze, "_", round(100*percentile,0), ".tiff"),
            width = 10, height = 5, dpi= 400, device = "tiff")
   }
   
 }
 
-plot_map_selected(percentile = 1)
+plot_map_selected(percentile = 0.99)
   

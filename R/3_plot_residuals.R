@@ -6,7 +6,7 @@ library(ggpubr)
 library(gridExtra)
 library(grid)
 
-toanalyze <- "gonad_weight"  # "weight" or "length" or "gonad_weight"
+toanalyze <- "length"  # "weight" or "length" or "gonad_weight"
 
 if (toanalyze=="length") model_save <- readRDS("output/Results_length.rds")
 if (toanalyze=="weight") model_save <- readRDS("output/Results_weight.rds")
@@ -146,7 +146,7 @@ if (toanalyze=="gonad_weight")  model_save <- readRDS("output/Results_gonad_weig
   iter = 1
   
   # creating plots
-  if (toanalyze == "weight"){
+  if (toanalyze %in% c("length", "weight")){
     for (Period in c("May",  "July", "Sept_Oct", "Nov_Dec")){
       for (Age_use in c(3:10)) {
         
@@ -166,7 +166,7 @@ if (toanalyze=="gonad_weight")  model_save <- readRDS("output/Results_gonad_weig
   }
   
   # saving plots 
-  if (toanalyze == "weight"){
+  if (toanalyze %in% c("length", "weight")){
     pp <- ggarrange(plotlist =figs[1:8], ncol=3, nrow=3)
     ggsave(pp, file=paste0(getwd(), "/output/plots/resids/Gear_", toanalyze, "May.pdf"), width=180, height=180, dpi=400, unit="mm")
     pp <- ggarrange(plotlist =figs[9:16], ncol=3, nrow=3)
